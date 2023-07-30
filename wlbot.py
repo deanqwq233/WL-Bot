@@ -7,7 +7,6 @@ app = Flask(__name__)
 
 @app.route('/', methods=["POST"])
 def post_data():
-    '下面的request.get_json().get......是用来获取关键字的值用的，关键字参考上面代码段的数据格式'
     if request.get_json().get('message_type') == 'private':  # 是私聊信息
         uid = request.get_json().get('sender').get('user_id')  # 获取信息发送者的QQ号
         message = request.get_json().get('raw_message')  # 获取原始信息
@@ -18,7 +17,6 @@ def post_data():
         uid = request.get_json().get('sender').get('user_id')  # 获取信息发送者的QQ号
         message = request.get_json().get('raw_message')  # 获取原始信息
         api.keyword(message, uid, gid)  # 传到后台
-
     return 'OK'
 
 if __name__ == '__main__':

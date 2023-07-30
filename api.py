@@ -18,8 +18,10 @@ def tianqi(uid, gid, name):
     driver.save_screenshot('/data/images/result.png')
     if gid != None: # 群聊信息
         requests.get(url='http://127.0.0.1:1981/send_group_msg?group_id={0}&message={1}'.format(gid, r'[CQ:image,file=result.png]'))
+        res = requests.get('http://127.0.0.1:11045/')
         return 'OK'
 
     else: # 私聊信息
         requests.get(url='http://127.0.0.1:1981/send_private_msg?user_id={0}&message={1}'.format(uid, name, r'[CQ:image,file=result.png]'))
+        res = requests.get('http://127.0.0.1:11045/')
         return 'OK'
