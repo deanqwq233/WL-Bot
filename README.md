@@ -1,6 +1,8 @@
 # WL-Bot
 一个基于Python的QQ群机器人
 
+# 方式一：手动下载文件安装
+
 需要go-cqhttp，请下载对应版本并命名为gocq.exe放在程序根目录里。
 
 ## 第一次启动，双击START-WL-BOT.exe
@@ -36,9 +38,7 @@ servers:
 
 再次双击START-WL-BOT.exe，启动机器人
 
------我是分割线-----
-
-# 也可以使用一键式安装工具
+# 方式二：一键式安装工具
 [带我去Releases](https://github.com/deanqwq233/WL-Bot/releases)
 
 安装完成后在config.yml中填写QQ号(密码可选)
