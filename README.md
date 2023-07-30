@@ -36,6 +36,8 @@ servers:
 
 再次双击START-WL-BOT.exe，启动机器人
 
+-----我是分割线-----
+
 # 也可以使用一键式安装工具
 [带我去Releases](https://github.com/deanqwq233/WL-Bot/releases)
 
