@@ -1,5 +1,5 @@
 # WL-Bot
-一个基于Python的QQ群机器人
+一个基于Python的QQ群机器人，需要安装依赖flask, requests, selenium
 
 # 方式一：手动下载文件安装
 
