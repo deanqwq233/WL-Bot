@@ -35,3 +35,10 @@ servers:
 ```
 
 再次双击START-WL-BOT.exe，启动机器人
+
+# 也可以使用一键式安装工具
+[带我去Releases](https://github.com/deanqwq233/WL-Bot/releases)
+
+安装完成后在config.yml中填写QQ号(密码可选)
+
+双击START-WL-BOT.exe启动
